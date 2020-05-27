@@ -1,0 +1,8 @@
+{
+  "keyPath":    "./certs/8aac789fa7-private.pem.key",
+  "certPath":   "./certs/8aac789fa7-certificate.pem.crt",
+  "caPath":     "./certs/Amazon_Root_CA_1.pem",
+  "clientId":   "495006029596",
+  "host":       "aa9b0ianlfaf5-ats.iot.us-east-2.amazonaws.com",
+  "secret_key": "secretkey"
+}

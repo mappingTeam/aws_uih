@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "caongoc",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "aws-sdk": "^2.553.0",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.8.0",
+    "ejs": "^2.7.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.2",
+    "express-socket.io-session": "^1.3.5",
+    "jquery": "^3.4.1",
+    "mysql": "^2.17.1",
+    "net": "^1.0.2",
+    "socket.io": "^2.3.0",
+    "string_decoder": "^1.1.1",
+    "sync-mysql": "^3.0.1"
+  }
+}
