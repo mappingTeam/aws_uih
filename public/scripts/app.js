@@ -147,7 +147,7 @@ function createSocketCallbacks() {
       $('#txt-temperature').html(`${env_info.temp.toFixed(2)}<em>C</em>`);
       $('#txt-humidity').html(`${env_info.humid.toFixed(2)}<em>%</em>`);
       $('#txt-light-intensity').html(`${env_info.light.toFixed(2)}<em>lx</em>`);
-      $('#txt-dust-density').html(`${env_info.dust.toFixed(2)}<em>mg/m3</em>`);
+      // $('#txt-dust-density').html(`${env_info.dust.toFixed(2)}<em>mg/m3</em>`);
     }
   });
 
@@ -176,7 +176,6 @@ function createSocketCallbacks() {
       updateBtnStyle();
     }
   });
-
 }
 
 function updateBtnStyle() {
